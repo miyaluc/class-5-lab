@@ -66,13 +66,17 @@ Write a function called sumArray() that takes in an array of numbers as its argu
 "2,3,4 was passed in as an array of numbers, and 9 is their sum."
 Test this function by hand in the console to get it working, and when you think it is finished, uncomment the call for the testSumArray() function and see if the test passes.*/
 
-function sumArray(selection[]) {
-  selection = [x, y, z];
+function testSumArray(x, y, z) {
+//   x = 2;
+//   y = 3;
+//   z = 4;
   var answer1 = x + y + z;
-  var answer2 = '2' + '3' + '4'
-}
-// Write your code here
-testArray = [2,3,4];
+  var answer2 = "2, 3, 4 was passed in as array of numbers, and 9 is their sum."
+  var maths = [answer1, answer2];
+  console.log(maths);
+};
+
+testSumArray(2, 3, 4);
 
 // Here is the test for sumArray(); uncomment it to run it
 testSumArray(testArray);
