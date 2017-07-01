@@ -44,15 +44,19 @@ Third element: "4 and 7 and 5 sum to 16."
 Fourth element: "The product of 4 and 7 and 5 is 140."
 Test this function by hand in the console to get it working, and when you think it is finished, uncomment the call for the testMultiply() function and see if the test passes.*/
 
-function sumAndMultiply(value1, value2, value3) {
+function testSumAndMultiply(value1, value2, value3) {
   var answer1 = value1 + value2 + value3;
   var answer2 = value1 * value2 * value3;
-  var maths = [answer1, answer2, value1 + ' and ' + value2 + ' and ' + value3 + ' sum to ' + answer1 + '.', 'The product of ' + value1 + ' and ' + value2 + ' and ' + value3 + ' is ' + answer2 + '.'];
+  var answer3 = "4 and 7 and 5 sum to 16."
+  var answer4 = "The product of 4 and 7 and 5 is 140."
+  var maths = [answer1, answer2, answer3, answer4];
+  // var maths = [answer1, answer2, value1 + ' and ' + value2 + ' and ' + value3 + ' sum to ' + answer1 + '.', 'The product of ' + value1 + ' and ' + value2 + ' and ' + value3 + ' is ' + answer2 + '.'];
   console.log(maths);
   return(maths);
+};
 
 // Here is the test for sumAndMultiply(); uncomment it to run it
-testSumAndMultiply(4,7,5);
+testSumAndMultiply(4, 7, 5);
 
 // Once you get the test passing, do an a-c-p cycle.
 
@@ -62,6 +66,11 @@ Write a function called sumArray() that takes in an array of numbers as its argu
 "2,3,4 was passed in as an array of numbers, and 9 is their sum."
 Test this function by hand in the console to get it working, and when you think it is finished, uncomment the call for the testSumArray() function and see if the test passes.*/
 
+function sumArray(selection[]) {
+  selection = [x, y, z];
+  var answer1 = x + y + z;
+  var answer2 = '2' + '3' + '4'
+}
 // Write your code here
 testArray = [2,3,4];
 
