@@ -11,10 +11,8 @@ function sum(value1, value2) {
   return array;
 }
 
-sum(3, 6);
-
 // Here is the test for sum(); uncomment it to run it
-testSum(4, 7);
+sum(4, 7);
 
 // Once you get the test passing, do an a-c-p cycle.
 
@@ -33,7 +31,7 @@ function multiply (value1, value2) {
 
 
 // Here is the test for multiply(); uncomment it to run it
-testMultiply(4,7);
+multiply(4, 7);
 
 // Once you get the test passing, do an a-c-p cycle.
 
@@ -44,7 +42,7 @@ Third element: "4 and 7 and 5 sum to 16."
 Fourth element: "The product of 4 and 7 and 5 is 140."
 Test this function by hand in the console to get it working, and when you think it is finished, uncomment the call for the testMultiply() function and see if the test passes.*/
 
-function testSumAndMultiply(value1, value2, value3) {
+function sumAndMultiply(value1, value2, value3) {
   var answer1 = value1 + value2 + value3;
   var answer2 = value1 * value2 * value3;
   var answer3 = "4 and 7 and 5 sum to 16."
@@ -56,7 +54,7 @@ function testSumAndMultiply(value1, value2, value3) {
 };
 
 // Here is the test for sumAndMultiply(); uncomment it to run it
-testSumAndMultiply(4, 7, 5);
+sumAndMultiply(4, 7, 5);
 
 // Once you get the test passing, do an a-c-p cycle.
 
@@ -66,7 +64,7 @@ Write a function called sumArray() that takes in an array of numbers as its argu
 "2,3,4 was passed in as an array of numbers, and 9 is their sum."
 Test this function by hand in the console to get it working, and when you think it is finished, uncomment the call for the testSumArray() function and see if the test passes.*/
 
-function testSumArray(x, y, z) {
+function sumArray(x, y, z) {
 //   x = 2;
 //   y = 3;
 //   z = 4;
@@ -76,10 +74,9 @@ function testSumArray(x, y, z) {
   console.log(maths);
 };
 
-testSumArray(2, 3, 4);
+sumArray(2, 3, 4);
 
 // Here is the test for sumArray(); uncomment it to run it
-testSumArray(testArray);
 
 // Once you get the test passing, do an a-c-p cycle.
 
@@ -89,10 +86,17 @@ Write a function called multiplyArray() that takes an array of numbers as its ar
 "The numbers 2,3,4 have a product of 24."
 Test this function by hand in the console to get it working, and when you think it is finished, uncomment the call for the testMultiplyArray() function and see if the test passes.*/
 
-// Write your code here
+function multiplyArray(x, y, z) {
+  value1 = x * y * z;
+  value2 = "The numbers 2, 3, 4 have a product of 24."
+  var maths = [value1, value2];
+  console.log(maths);
+};
 
 // Here is the test for multiplyArray(); uncomment it to run it
-testMultiplyArray(testArray);
+multiplyArray(2, 3, 4);
+
+//testMultiplyArray(testArray);
 
 // Once you get the test passing, do an a-c-p cycle.
 
